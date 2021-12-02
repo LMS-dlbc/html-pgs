@@ -133,12 +133,14 @@ a:link {
 a:active {
   color: blue;
 }
-table, th, td {
+table, td, th {
   border: 1px solid black;
 }
 
 table {
   width: 100%;
+  border-collapse: collapse;
+  height: 100px;
 }
 
 .home_content input[type=text], select {
@@ -170,4 +172,5 @@ table {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+    width:50%;
 }
